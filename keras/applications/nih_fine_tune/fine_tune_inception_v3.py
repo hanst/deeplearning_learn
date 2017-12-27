@@ -110,10 +110,3 @@ model.load_weights('weights/nih_disease_model.01-11.69.hdf5')
 score = model.evaluate(test_images, test_labels, batch_size=32)
 print('Test loss:', score)
 
-model.load_weights('weights/nih_disease_model.03-11.69.hdf5')
-score = model.evaluate(test_images, test_labels, batch_size=32)
-print('Test loss:', score)
-
-model.load_weights('weights/nih_disease_model.04-11.69.hdf5')
-score = model.evaluate(test_images, test_labels, batch_size=32)
-print('Test loss:', score)
