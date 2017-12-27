@@ -2,7 +2,7 @@
 from keras.datasets import imdb
 
 (X_train, y_train), (X_test, y_test) = imdb.load_data(path="imdb.npz",
-                                                      nb_words=None,
+                                                      num_words=None,
                                                       skip_top=0,
                                                       maxlen=None,
                                                       test_split=0.1,
@@ -13,7 +13,7 @@ from keras.datasets import imdb
 
 from keras.datasets import reuters
 (X_train, y_train), (X_test, y_test) = reuters.load_data(path="reuters.npz",
-                                                         nb_words=None,
+                                                         num_words=None,
                                                          skip_top=0,
                                                          maxlen=None,
                                                          test_split=0.2,
